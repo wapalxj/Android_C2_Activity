@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">C2_2_23_Activity_save_and_recovry</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lifecycle">LifecycleActivity</string>
+</resources>

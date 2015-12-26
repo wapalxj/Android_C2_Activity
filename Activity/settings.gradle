@@ -1,0 +1,1 @@
+include ':app', ':test', ':c2_2_16_activity2', ':c2_2_18_activity2_intent', ':c2_2_21_excise', ':c2_2_23_activity_save_and_recovry', ':c2_2.28_configurationchanges', ':c2_2_29_androidtaskstack', ':c2_activity2_31_taskstacksetings', ':C2_2_14_ActivityFirst'
