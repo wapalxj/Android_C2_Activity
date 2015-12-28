@@ -1,3 +1,3 @@
 # vero_Android_C2_02_Activity
-android
+android_C2_02_Activity
 C2_02_Activity
