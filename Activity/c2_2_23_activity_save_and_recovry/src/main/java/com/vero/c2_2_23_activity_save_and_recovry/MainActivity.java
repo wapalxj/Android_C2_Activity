@@ -23,6 +23,7 @@ public class MainActivity extends ActionBarActivity {
         if (savedInstanceState!=null){
             editText=(EditText)findViewById(R.id.editText);
             editText.setText(savedInstanceState.getString("editTextString"));
+            Toast.makeText(MainActivity.this, "onCreate中恢复数据："+savedInstanceState.getString("editTextString"),Toast.LENGTH_SHORT).show();
         }
         Log.i("vero log", "Main onCreate");
         Button button=(Button) findViewById(R.id.button);
@@ -40,7 +41,7 @@ public class MainActivity extends ActionBarActivity {
         buttonPart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final  CharSequence[] colors_array={"red","blue","green"};
+                final CharSequence[] colors_array = {"red", "blue", "green"};
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle("pick_color")
                         .setItems(colors_array, new DialogInterface.OnClickListener() {
@@ -48,7 +49,7 @@ public class MainActivity extends ActionBarActivity {
                                 Toast.makeText(getApplicationContext(), colors_array[which], Toast.LENGTH_SHORT).show();
                             }
                         });
-                AlertDialog alert=builder.create();
+                AlertDialog alert = builder.create();
                 alert.show();
             }
         });
@@ -56,7 +57,7 @@ public class MainActivity extends ActionBarActivity {
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
-//        super.onSaveInstanceState(outState);//先屏蔽掉系统的保存，才能使用我们自己的
+        super.onSaveInstanceState(outState);//先屏蔽掉系统的保存，防止我们自己的
         //保存(EditText的内容
         editText=(EditText)findViewById(R.id.editText);
         outState.putString("editTextString", "vnix:"+editText.getText().toString());
@@ -67,6 +68,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         Log.i("vero log", "Main-onRestoreInstanceState");
+        Toast.makeText(MainActivity.this, "Restore中恢复数据："+savedInstanceState.getString("editTextString"),Toast.LENGTH_SHORT).show();
     }
 
 
@@ -105,25 +107,4 @@ public class MainActivity extends ActionBarActivity {
         Log.i("vero log", "Main-onRestart");
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 }
