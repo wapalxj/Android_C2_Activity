@@ -17,7 +17,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_main);
-        //既然Activity是通过window来视图，那我们就用window:inflast
+        //既然Activity是通过window来视图，那我们就用window:inflate
         this.getWindow().setContentView(this.getLayoutInflater().inflate(R.layout.activity_main, null));
         //动态设置Text
         Button button= (Button) this.findViewById(R.id.button);
