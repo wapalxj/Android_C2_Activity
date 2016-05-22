@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vero.c2_2_18_activity2_intent" >
+    package="com.book.vero.c2_2_21_excise2_intent" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <application
         android:allowBackup="true"
@@ -17,17 +20,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RoseActivity"
-            android:label="@string/title_activity_rose" >
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2" >
             <intent-filter>
-                <action android:name="vnix.demo.activity.VERO" />
-
+                <action android:name="com.vero.vnix" />
                 <category android:name="android.intent.category.DEFAULT" />
-
-                <data android:scheme="http"
-                    android:host="www.baidu.com"
-                    android:port="80"
-                    />
+                />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Reader"
+            android:label="@string/title_activity_reader" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/*"/>
             </intent-filter>
         </activity>
     </application>
