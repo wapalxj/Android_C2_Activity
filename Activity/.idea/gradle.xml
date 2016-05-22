@@ -3,11 +3,25 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.4" />
-        <option name="gradleJvm" value="1.8" />
+        <option name="gradleHome" value="G:\2016软件包\Allpackages\Software\Android\2.0\android-studio\gradle\gradle-2.10" />
         <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/C2_2_14_ActivityFirst" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/c2_2.28_configurationchanges" />
+            <option value="$PROJECT_DIR$/c2_2_16_activity2" />
+            <option value="$PROJECT_DIR$/c2_2_18_activity2_intent" />
+            <option value="$PROJECT_DIR$/c2_2_21_excise" />
+            <option value="$PROJECT_DIR$/c2_2_23_activity_save_and_recovry" />
+            <option value="$PROJECT_DIR$/c2_2_29_androidtaskstack" />
+            <option value="$PROJECT_DIR$/c2_activity2_31_taskstacksetings" />
+            <option value="$PROJECT_DIR$/test" />
+          </set>
+        </option>
+        <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/C2_2_14_ActivityFirst" />
