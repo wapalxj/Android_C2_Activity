@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Activity.iml" filepath="$PROJECT_DIR$/Activity.iml" />
       <module fileurl="file://$PROJECT_DIR$/C2_2_14_ActivityFirst/C2_2_14_ActivityFirst.iml" filepath="$PROJECT_DIR$/C2_2_14_ActivityFirst/C2_2_14_ActivityFirst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/C2_z_closeotheractivity/C2_z_closeotheractivity.iml" filepath="$PROJECT_DIR$/C2_z_closeotheractivity/C2_z_closeotheractivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_2.28_configurationchanges/c2_2.28_configurationchanges.iml" filepath="$PROJECT_DIR$/c2_2.28_configurationchanges/c2_2.28_configurationchanges.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_2_16_activity2/c2_2_16_activity2.iml" filepath="$PROJECT_DIR$/c2_2_16_activity2/c2_2_16_activity2.iml" />
