@@ -3,20 +3,21 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Activity.iml" filepath="$PROJECT_DIR$/Activity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/C2_2_14_ActivityFirst/C2_2_14_ActivityFirst.iml" filepath="$PROJECT_DIR$/C2_2_14_ActivityFirst/C2_2_14_ActivityFirst.iml" />
-      <module fileurl="file://$PROJECT_DIR$/C2_z_closeotheractivity/C2_z_closeotheractivity.iml" filepath="$PROJECT_DIR$/C2_z_closeotheractivity/C2_z_closeotheractivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/c2_2.28_configurationchanges/c2_2.28_configurationchanges.iml" filepath="$PROJECT_DIR$/c2_2.28_configurationchanges/c2_2.28_configurationchanges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_2_14_ActivityFirst/C2_2_14_ActivityFirst.iml" filepath="$PROJECT_DIR$/c2_2_14_ActivityFirst/C2_2_14_ActivityFirst.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_2_16_activity2/c2_2_16_activity2.iml" filepath="$PROJECT_DIR$/c2_2_16_activity2/c2_2_16_activity2.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_2_18_activity2_intent/c2_2_18_activity2_intent.iml" filepath="$PROJECT_DIR$/c2_2_18_activity2_intent/c2_2_18_activity2_intent.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_2_21_excise/c2_2_21_excise.iml" filepath="$PROJECT_DIR$/c2_2_21_excise/c2_2_21_excise.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_2_21_excise2_intent/c2_2_21_excise2_intent.iml" filepath="$PROJECT_DIR$/c2_2_21_excise2_intent/c2_2_21_excise2_intent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_2_23_01_life/c2_2_23_01_life.iml" filepath="$PROJECT_DIR$/c2_2_23_01_life/c2_2_23_01_life.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_2_23_activity_save_and_recovry/c2_2_23_activity_save_and_recovry.iml" filepath="$PROJECT_DIR$/c2_2_23_activity_save_and_recovry/c2_2_23_activity_save_and_recovry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_2_28_configurationchanges/c2_2_28_configurationchanges.iml" filepath="$PROJECT_DIR$/c2_2_28_configurationchanges/c2_2_28_configurationchanges.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_2_29_androidtaskstack/c2_2_29_androidtaskstack.iml" filepath="$PROJECT_DIR$/c2_2_29_androidtaskstack/c2_2_29_androidtaskstack.iml" />
       <module fileurl="file://$PROJECT_DIR$/c2_activity2_31_taskstacksetings/c2_activity2_31_taskstacksetings.iml" filepath="$PROJECT_DIR$/c2_activity2_31_taskstacksetings/c2_activity2_31_taskstacksetings.iml" />
-      <module fileurl="file://$PROJECT_DIR$/c3_qf_task_01/c3_af_task_01.iml" filepath="$PROJECT_DIR$/c3_qf_task_01/c3_af_task_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c2_z_closeotheractivity/C2_z_closeotheractivity.iml" filepath="$PROJECT_DIR$/c2_z_closeotheractivity/C2_z_closeotheractivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c3_qf_task_01/c3_qf_task_01.iml" filepath="$PROJECT_DIR$/c3_qf_task_01/c3_qf_task_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/c3_qf_task_02/c3_qf_task_02.iml" filepath="$PROJECT_DIR$/c3_qf_task_02/c3_qf_task_02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c4_a6.0_intent_permission/c4_a6.0_intent_permission.iml" filepath="$PROJECT_DIR$/c4_a6.0_intent_permission/c4_a6.0_intent_permission.iml" />
     </modules>
   </component>
 </project>
