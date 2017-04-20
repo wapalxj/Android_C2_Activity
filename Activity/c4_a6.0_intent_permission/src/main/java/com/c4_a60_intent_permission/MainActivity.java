@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         //注意：每次测试获取权限都应该先卸载APP
                         callDirectly();
                     }
+
                 } else {
                     //拨号方法
                     callDirectly();

@@ -3,6 +3,7 @@ package vero.com.c3_qf_task_01;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class B_Activity extends AppCompatActivity {
@@ -18,5 +19,11 @@ public class B_Activity extends AppCompatActivity {
     }
     public void showActivities(View view){
         TaskUtils.showTasks(B_Activity.this);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.e("onDestroy","onDestroy");
     }
 }
