@@ -3,9 +3,8 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="D:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -24,6 +23,7 @@
             <option value="$PROJECT_DIR$/c3_qf_task_01" />
             <option value="$PROJECT_DIR$/c3_qf_task_02" />
             <option value="$PROJECT_DIR$/c4_a6.0_intent_permission" />
+            <option value="$PROJECT_DIR$/setresult" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

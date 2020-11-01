@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/c3_qf_task_01/c3_qf_task_01.iml" filepath="$PROJECT_DIR$/c3_qf_task_01/c3_qf_task_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/c3_qf_task_02/c3_qf_task_02.iml" filepath="$PROJECT_DIR$/c3_qf_task_02/c3_qf_task_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/c4_a6.0_intent_permission/c4_a6.0_intent_permission.iml" filepath="$PROJECT_DIR$/c4_a6.0_intent_permission/c4_a6.0_intent_permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/setresult/setresult.iml" filepath="$PROJECT_DIR$/setresult/setresult.iml" />
     </modules>
   </component>
 </project>
